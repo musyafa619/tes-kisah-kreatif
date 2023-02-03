@@ -9,7 +9,6 @@ import {
   MaintenanceIcon,
   UserIcon,
   BackIcon,
-  WeatherIcon,
   WeatherCloudIcon,
   WeatherWindIcon,
   WeatherSunIcon,

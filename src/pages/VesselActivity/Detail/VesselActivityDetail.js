@@ -1,33 +1,8 @@
 import React from 'react';
-import {
-  Box,
-  useColorModeValue,
-  Drawer,
-  DrawerContent,
-  useDisclosure,
-  Text,
-  Grid,
-  GridItem,
-  Flex,
-  Button,
-} from '@chakra-ui/react';
-import MobileNav from '../../../components/MobileNav';
-import Sidebar from '../../../components/Sidebar';
+import { Box, Text, Grid, GridItem, Flex, Button } from '@chakra-ui/react';
 import VesselActivityCard from '../../../components/vessel/VesselActivityCard';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { BackIcon, ExportIcon } from '../../../components/Icons';
-
-const vesselActivities = [
-  'KM Abusamah',
-  'KM Ibrahim Zahier',
-  'KM Ibrahim Zahier',
-  'KM Mochtar Prabu Mangkunegara',
-  'KM Pusri Indonesia',
-  'SPUB PI 1',
-  'KM Soemantri Brodjonegoro',
-  'MT Salmon Mustofa',
-  'MT Sultan Mahmud Badaruddin II',
-];
 
 export default function VesselActivityDetail() {
   const { username } = useParams();

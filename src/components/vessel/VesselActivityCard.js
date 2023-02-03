@@ -1,19 +1,5 @@
 import React from 'react';
-import {
-  IconButton,
-  Avatar,
-  Flex,
-  HStack,
-  VStack,
-  useColorModeValue,
-  Text,
-  Menu,
-  MenuButton,
-  MenuDivider,
-  MenuItem,
-  MenuList,
-  Box,
-} from '@chakra-ui/react';
+import { Flex, Text } from '@chakra-ui/react';
 import { VesselIcon } from '../Icons';
 import { Link } from 'react-router-dom';
 

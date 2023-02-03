@@ -1,16 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  useColorModeValue,
-  Drawer,
-  DrawerContent,
-  useDisclosure,
-  Text,
-  Grid,
-  GridItem,
-} from '@chakra-ui/react';
-import MobileNav from '../../components/MobileNav';
-import Sidebar from '../../components/Sidebar';
+import { Box, Text, Grid, GridItem } from '@chakra-ui/react';
 import VesselActivityCard from '../../components/vessel/VesselActivityCard';
 
 const vesselActivities = [

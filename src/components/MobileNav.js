@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   IconButton,
-  Avatar,
   Flex,
   HStack,
   VStack,
@@ -9,9 +8,6 @@ import {
   Text,
   Menu,
   MenuButton,
-  MenuDivider,
-  MenuItem,
-  MenuList,
   Box,
 } from '@chakra-ui/react';
 import { MenuIcon, ProfileIcon } from './Icons';
