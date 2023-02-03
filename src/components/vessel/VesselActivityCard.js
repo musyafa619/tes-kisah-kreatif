@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const VesselActivityCard = ({ vessel, small }) => {
   return (
-    <Link to={`/vessel-activity/${vessel.replaceAll('', '-')}`}>
+    <Link to={`/vessel-activity/${vessel.replaceAll(' ', '-')}`}>
       <Flex
         cursor={'pointer'}
         alignItems="center"
